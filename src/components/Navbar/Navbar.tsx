@@ -1,11 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./navbar.scss";
-import {putFoundProducts} from "../../store/actionCreators/contentAC";
-import {useDispatch, useSelector} from "react-redux";
-import {RootState} from "../../store/store";
-import {Product} from "../../api/types/types";
-import {Link} from "react-router-dom";
-import {ALL_PRODUCTS, HOME} from "../../utils/urls";
+import { putFoundProducts } from "../../store/actionCreators/contentAC";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../../store/store";
+import { Product } from "../../api/types/types";
+import { Link } from "react-router-dom";
+import { ALL_PRODUCTS, HOME } from "../../utils/urls";
+import * as urls from "./../../urls";
 
 const MainNavbar = () => {
   const [inputValue, setInputValue] = useState("");
@@ -56,7 +57,7 @@ const MainNavbar = () => {
                 />
               </div>
               <div id="user">
-                <a href="#">cart</a>
+                <Link to={urls.FOR_TESTS}>cart</Link>
                 <a href="./Navbar#">
                   {" "}
                   <i className="fas fa-user-circle userIcon"></i>{" "}

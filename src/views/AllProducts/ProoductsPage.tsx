@@ -28,7 +28,7 @@ const ProductsPage = () => {
   useEffect(() => {
     // @ts-ignore
     dispatch(fetchProductsThunk());
-  }, [filteredClothes]);
+  }, [dispatch,filteredClothes]);
 
   useEffect(() => {
     if (Array.isArray(products)) {
@@ -40,7 +40,6 @@ const ProductsPage = () => {
       dispatch(putFoundProducts(filteredProducts));
     }
   }, [inputValue]);
-
 
   return (
     <PageWrapper>

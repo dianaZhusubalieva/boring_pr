@@ -1,7 +1,7 @@
 import React from "react";
 import "./page_not_fouund_styles.scss";
 import * as urls from "./../../urls";
-import {strings} from "../../constants/strings";
+import { strings } from "../../constants/strings";
 
 const PageNotFound = () => {
   return (

@@ -1,15 +1,15 @@
 import React from "react";
-import {Button, Form} from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
-import {formikInputProps} from "../utils/formik";
-import {useFormik} from "formik";
+import { formikInputProps } from "../utils/formik";
+import { useFormik } from "formik";
 import * as yup from "yup";
-import {postProduct} from "../api/mainAPI";
+import { postProduct } from "../api/mainAPI";
 import "toastify-js/src/toastify.css";
 import Toastify from "toastify-js";
-import {strings} from "../constants/strings";
-import {useNavigate} from "react-router-dom";
-import {HOME} from "../utils/urls";
+import { strings } from "../constants/strings";
+import { useNavigate } from "react-router-dom";
+import { HOME } from "../utils/urls";
 
 export interface ProductValues {
   type: string;
@@ -21,7 +21,10 @@ export interface ProductValues {
 const schema = yup.object().shape({
   type: yup.string().min(2, "the minimum amount of words is 2").required(),
   price: yup.number().min(2, "the minimum amount of words is 2").required(),
-  description: yup.string().min(2, "the minimum amount of words is 2").required(),
+  description: yup
+    .string()
+    .min(2, "the minimum amount of words is 2")
+    .required(),
   image: yup.string().min(2, "the minimum amount of words is 2").required(),
 });
 
@@ -35,8 +38,8 @@ const AddPage: React.FC = () => {
     description: "",
     image: "",
   };
-  const onSubmit = async (newProduct : ProductValues) => {
-   await postProduct(newProduct);
+  const onSubmit = async (newProduct: ProductValues) => {
+    await postProduct(newProduct);
     Toastify({
       text: strings.successfully_created,
       style: {

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ProductValues } from "../pages/AddPage";
+import { ProductValues } from "../views/AddPage";
 import fetchProductsThunk from "../store/middlewares/productMiddlewares";
 
 const API = "http://localhost:8000/clothes";

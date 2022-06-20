@@ -1,6 +1,6 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, { useEffect } from "react";
 import "./home.scss";
-import {useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import fetchProductsThunk from "../store/middlewares/productMiddlewares";
 import PageWrapper from "../components/PageWrapper";
 import MainPageContent from "../components/common/MainPageContent";
@@ -10,9 +10,8 @@ const HomePage = () => {
 
   useEffect(() => {
     // @ts-ignore
-      dispatch(fetchProductsThunk());
-  }, []);
-
+    dispatch(fetchProductsThunk());
+  }, [dispatch]);
 
   return (
     <>
