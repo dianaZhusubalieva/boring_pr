@@ -43,7 +43,7 @@ const MainNavbar = () => {
                   <Link to={ALL_PRODUCTS}>PRODUCTS</Link>
                 </div>
                 <div id="accessories">
-                  <a href="accessories.html"> NEW ARRIVALS </a>
+                  <a href="*"> NEW ARRIVALS </a>
                 </div>
               </div>
               <div id="search">
@@ -56,7 +56,7 @@ const MainNavbar = () => {
                 />
               </div>
               <div id="user">
-                <a href="cart.html">cart</a>
+                <a href="#">cart</a>
                 <a href="./Navbar#">
                   {" "}
                   <i className="fas fa-user-circle userIcon"></i>{" "}
