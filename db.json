@@ -1,0 +1,137 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "type": "tops",
+      "price": "15",
+      "description": "blue borg teddy denim mix jacket",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 2,
+      "type": "tops",
+      "price": "15",
+      "description": "blue borg teddy denim mix jacket",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 3,
+      "type": "tops",
+      "price": "15",
+      "description": "blue borg teddy denim mix jacket",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 4,
+      "type": "tops",
+      "price": "15",
+      "description": "blue borg teddy denim mix jacket",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 5,
+      "type": "pants",
+      "price": "15",
+      "description": "blue borg teddy denim mix pants",
+      "image": "https://media.nastygal.com/i/nastygal/agg13483_black_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 6,
+      "type": "pants",
+      "price": "30",
+      "description": "plus size blue cross applique oversize denim pants",
+      "image": "https://media.nastygal.com/i/nastygal/agg13483_black_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 7,
+      "type": "pants",
+      "price": "30",
+      "description": "plus size blue cross applique oversize denim pants",
+      "image": "https://media.nastygal.com/i/nastygal/agg13483_black_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 8,
+      "type": "pants",
+      "price": "30",
+      "description": "plus size blue cross applique oversize denim pants",
+      "image": "https://media.nastygal.com/i/nastygal/agg13483_black_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 9,
+      "type": "pants",
+      "price": "30",
+      "description": "plus size blue cross applique oversize denim jacket",
+      "image": "https://media.nastygal.com/i/nastygal/agg13483_black_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 10,
+      "type": "jacket",
+      "price": "30",
+      "description": "plus size blue cross applique oversize denim jacket",
+      "image": "https://media.nastygal.com/i/nastygal/agg57657_gold_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 11,
+      "type": "jacket",
+      "price": "65",
+      "description": "navy co ord oversized cord denim shirt",
+      "image": "https://media.nastygal.com/i/nastygal/agg57657_gold_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 12,
+      "type": "jacket",
+      "price": "65",
+      "description": "navy co ord oversized cord denim shirt",
+      "image": "https://media.nastygal.com/i/nastygal/agg57657_gold_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 13,
+      "type": "jacket",
+      "price": "65",
+      "description": "navy co ord oversized cord denim shirt",
+      "image": "https://media.nastygal.com/i/nastygal/agg57657_gold_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 14,
+      "type": "jacket",
+      "price": "65",
+      "description": "navy co ord oversized cord denim shirt",
+      "image": "https://media.nastygal.com/i/nastygal/agg57657_gold_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 65,
+      "type": "jacket",
+      "price": "65",
+      "description": "navy co ord oversized cord denim shirt",
+      "image": "https://media.nastygal.com/i/nastygal/agg57657_gold_xl?w=300&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 16,
+      "type": "tops",
+      "price": "80",
+      "description": "chocolate co ord jumbo cord wide leg joggers jeans",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 17,
+      "type": "tops",
+      "price": "80",
+      "description": "chocolate co ord jumbo cord wide leg joggers jeans",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 18,
+      "type": "tops",
+      "price": "80",
+      "description": "chocolate co ord jumbo cord wide leg joggers jeans",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    },
+    {
+      "id": 19,
+      "type": "tops",
+      "price": "80",
+      "description": "chocolate co ord jumbo cord wide leg joggers jeans",
+      "image": "https://media.nastygal.com/i/nastygal/agg18082_green_xl?w=330&h=500&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+    }
+  ]
+}
